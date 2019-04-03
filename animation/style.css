@@ -1,0 +1,26 @@
+.pink{
+    background-color:
+    /* position: relative;  */
+}
+
+.imf{
+    width: 250px;
+    height:250px;
+    /* background-image: url("images/fruit.jpg"); */
+    background-size: cover;
+    box-shadow: 2px 2px 2px grey; 
+    /* position: absolute;
+    top: 180px; */
+    margin: 0 auto;
+    margin-top: 180px;
+    animation-name: new;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: red;
+}
+
+@keyframes new{
+     0% { transform: translateY(0); box-shadow: 2px 2px 2px grey; } 
+    50% { transform: translateY(-20px); box-shadow: 8px 8px 20px grey;}
+    100% { transform: translateY(0); box-shadow: 2px 2px 2px grey;}
+}
